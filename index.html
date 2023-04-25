@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="utf-8">
+    <title>XXHz</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <main>
+        <h1><span>XXHz</span></h1>
+        <h2><span id="tit">周波数を入力(Hz)</span></h2>
+            <input type="number" id="input" required maxlength="256" value="440" placeholder="ここに周波数を入力">
+            <div>
+                <button title="再生/停止" onclick="run()">⏯</button>
+                <button title="新しい値をセットする" onclick="reset()">🆕</button>
+            </div>
+    </main>
+    <footer>
+        <p id="copy">&copy; 2023 <a href="https://github.com/cykps">Conayuki</a></p>
+    </footer>
+</body>
+</html>
